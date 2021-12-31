@@ -97,15 +97,13 @@ function! ToggleMouse()
 endfunction
 "+=================================+
 
-"+---------------------------------+
-"| Vim-Plug                        +-------------------------------------+
-"+---------------------------------| Comment                             |
-"+=================================+=====================================+
-call plug#begin('~/.vim/plugged') "|                                     |
-Plug 'jiangmiao/auto-pairs'       "| insert or delete bracket pair       |
-Plug 'farmergreg/vim-lastplace'   "| reopen file at last cursor position |
-call plug#end()                   "|                                     |
-"+=================================+=====================================+
+"+==========+
+"| Vim-Plug |
+"+==========+
+call plug#begin('~/.vim/plugged')
+"Plug 'jiangmiao/auto-pairs'       " insert or delete bracket pair      
+"Plug 'farmergreg/vim-lastplace'   " reopen file at last cursor position
+call plug#end()
 
 "+-----------------------------+
 "| Color Scheme                +---------------------------------+
