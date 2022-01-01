@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2021-12-29         |
+#|                | Last Update : 2022-01-02         |
 #+================+==================================+
 
 #=======#
@@ -20,7 +20,7 @@ alias sus="sudo su"
 #=====#
 # APT #
 #=====#
-alias apt="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias apta="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 alias apti="sudo apt install -y"
 
 #=====#
