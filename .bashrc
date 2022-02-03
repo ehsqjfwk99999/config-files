@@ -3,8 +3,14 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-01-02         |
+#|                | Last Update : 2022-02-03         |
 #+================+==================================+
+
+#=======#
+# Paths #
+#=======#
+#MY_CONFIG_PATH="~/.kconfig/config"
+#WIN_HOME_PATH="<windows home path>"
 
 #=======#
 # Basic #
@@ -43,16 +49,15 @@ alias apti="sudo apt install -y"
 #======#
 # WSL2 #
 #======#
-#WIN_HOME_PATH="<windows home path>"
 #alias cdd="cd ${WIN_HOME_PATH}/_source"
 #alias cddd="cd ${WIN_HOME_PATH}"
 
 #=====#
 # Vim #
 #=====#
-alias vib="vi ~/.kconfig/config/bashrc && source ~/.bashrc"
-alias viz="vi ~/.kconfig/config/bashrc && source ~/.zshrc"
-alias viv="vi ~/.kconfig/config/vimrc"
+alias vib="vi ${MY_CONFIG_PATH}/bashrc && source ~/.bashrc"
+alias viz="vi ${MY_CONFIG_PATH}/bashrc && source ~/.zshrc"
+alias viv="vi ${MY_CONFIG_PATH}/vimrc"
 alias vis="vi ~/.ssh/config"
 
 #=====#
