@@ -50,7 +50,8 @@ alias apti="sudo apt install -y"
 # WSL2 #
 #======#
 #alias cdd="cd ${WIN_HOME_PATH}/_source"
-#alias cddd="cd ${WIN_HOME_PATH}"
+# alias cdh="cd ${WIN_HOME_PATH}"
+# alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
 
 #=====#
 # Vim #
