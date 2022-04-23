@@ -42,7 +42,7 @@ alias apti="sudo apt install -y"
 #===============#
 # lsd(LSDeluxe) #
 #===============#
-#alias ls="lsd" 
+#alias ls="lsd"
 #alias l="ls -al"
 #alias ll="ls -al"
 
@@ -59,6 +59,7 @@ alias vib="vi ${MY_CONFIG_PATH}/bashrc && source ~/.bashrc"
 alias viz="vi ${MY_CONFIG_PATH}/bashrc && source ~/.zshrc"
 alias viv="vi ${MY_CONFIG_PATH}/vimrc"
 alias vis="vi ~/.ssh/config"
+#alias viss="vi ${WIN_HOME_PATH}/.ssh/config"
 
 #=====#
 # Git #
