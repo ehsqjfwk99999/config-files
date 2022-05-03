@@ -50,8 +50,8 @@ alias apti="sudo apt install -y"
 # WSL2 #
 #======#
 #alias cdd="cd ${WIN_HOME_PATH}/_source"
-# alias cdh="cd ${WIN_HOME_PATH}"
-# alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
+#alias cdh="cd ${WIN_HOME_PATH}"
+#alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
 
 #=====#
 # Vim #
@@ -101,11 +101,12 @@ alias kdf="kubectl delete -f"
 #source <(kubectl completion zsh)
 alias mk="minikube"
 
-#=========#
-# Vagrant #
-#=========#
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+#===========#
+# Terraform #
+#===========#
+alias tf="terraform"
 
 #======#
 # Else #
 #======#
+#export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
