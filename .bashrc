@@ -105,6 +105,14 @@ alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
 #source <(kubectl completion zsh)
 alias mk="minikube"
+alias k3dc="k3d cluster"
+
+#=========#
+# Airflow #
+#=========#
+export AIRFLOW_HOME=~/.airflow
+alias airw="airflow webserver"
+alias airs="airflow scheduler"
 
 #===========#
 # Terraform #
