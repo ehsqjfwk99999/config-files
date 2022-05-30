@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-02-03         |
+#|                | Last Update : 2022-05-30         |
 #+================+==================================+
 
 #=======#
@@ -106,18 +106,6 @@ alias kdf="kubectl delete -f"
 #source <(kubectl completion zsh)
 alias mk="minikube"
 alias k3dc="k3d cluster"
-
-#=========#
-# Airflow #
-#=========#
-export AIRFLOW_HOME=~/.airflow
-alias airw="airflow webserver"
-alias airs="airflow scheduler"
-
-#===========#
-# Terraform #
-#===========#
-alias tf="terraform"
 
 #======#
 # Else #
