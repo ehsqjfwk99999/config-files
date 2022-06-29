@@ -9,8 +9,14 @@
 #=======#
 # Paths #
 #=======#
-#MY_CONFIG_PATH="~/.kconfig/config"
 #WIN_HOME_PATH="<windows home path>"
+
+#======#
+# WSL2 #
+#======#
+#alias cdd="cd ${WIN_HOME_PATH}/_source"
+#alias cdh="cd ${WIN_HOME_PATH}"
+#alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
 
 #=======#
 # Basic #
@@ -29,29 +35,14 @@ alias sus="sudo su"
 alias apta="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 alias apti="sudo apt install -y"
 
-#=====#
-# bat #
-#=====#
+#====================#
+# Modern Linux Tools #
+#====================#
 #alias cat="bat"
-
-#=========#
-# ripgrep #
-#=========#
-#alias ag="rg"
-
-#===============#
-# lsd(LSDeluxe) #
-#===============#
+#alias grep="rg"
 #alias ls="lsd"
 #alias l="ls -al"
 #alias ll="ls -al"
-
-#======#
-# WSL2 #
-#======#
-#alias cdd="cd ${WIN_HOME_PATH}/_source"
-#alias cdh="cd ${WIN_HOME_PATH}"
-#alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
 
 #=====#
 # Vim #
