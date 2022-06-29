@@ -47,9 +47,9 @@ alias apti="sudo apt install -y"
 #=====#
 # Vim #
 #=====#
-alias vib="vi ${MY_CONFIG_PATH}/bashrc && source ~/.bashrc"
-alias viz="vi ${MY_CONFIG_PATH}/bashrc && source ~/.zshrc"
-alias viv="vi ${MY_CONFIG_PATH}/vimrc"
+alias vib="vi ~/.mybashrc && source ~/.bashrc"
+alias viz="vi ~/.mybashrc && source ~/.zshrc"
+alias viv="vi ~/.vimrc"
 alias vis="vi ~/.ssh/config"
 #alias viss="vi ${WIN_HOME_PATH}/.ssh/config"
 
