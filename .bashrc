@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-05-30         |
+#|                | Last Update : 2022-06-29         |
 #+================+==================================+
 
 #=======#
@@ -76,14 +76,6 @@ alias gcam="git commit -am"
 alias py="python3"
 alias python="python3"
 alias pip="pip3"
-
-#========#
-# Golang #
-#========#
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/.go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin:$GOPATH:$GOBIN
 
 #=======#
 # Maven #
