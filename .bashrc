@@ -14,7 +14,7 @@
 #======#
 # WSL2 #
 #======#
-#alias cdd="cd ${WIN_HOME_PATH}/_source"
+#alias cdd="cd ${WIN_HOME_PATH}/_shared"
 #alias cdh="cd ${WIN_HOME_PATH}"
 #alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
 
