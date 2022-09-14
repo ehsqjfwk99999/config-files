@@ -1,0 +1,16 @@
+## Global Settings.
+Host *
+    ServerAliveInterval 120
+
+## Per-Host Settings.
+Host aws
+    User vagrant
+    HostName 192.168.0.101
+    Port 22
+    IdentityFile ~/aws-key.pem
+
+Host gpu-server
+    User nvidia
+    HostName 192.168.0.103
+    Port 12345
+    ProxyCommand ssh -W %h:%p aws # proxy through aws to gpu-server
