@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-07-01         |
+#|                | Last Update : 2022-09-14         |
 #+================+==================================+
 
 #=======#
@@ -38,7 +38,7 @@ alias apti="sudo apt install -y"
 #====================#
 # Modern Linux Tools #
 #====================#
-#alias cat="bat"
+#alias cat="bat -p"
 #alias grep="rg"
 #alias ls="lsd"
 #alias l="ls -al"
