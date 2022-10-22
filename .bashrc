@@ -94,3 +94,6 @@ alias k3dc="k3d cluster"
 # Else #
 #======#
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+#alias sss="bash ~/.my-scripts/ssh-menu.sh"
+#alias pl="bash ~/.my-scripts/playground-menu.sh"
+#alias sn="bash ~/.my-scripts/snippet-menu.sh"
