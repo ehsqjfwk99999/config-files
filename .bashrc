@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-10-25         |
+#|                | Last Update : 2022-11-07         |
 #+================+==================================+
 
 #=======#
@@ -77,7 +77,7 @@ export PATH=$HOME/.apache-maven/bin:$PATH
 # Docker #
 #========#
 alias dk="docker"
-alias dkc="docker-compose"
+alias dkc="docker compose"
 
 #============#
 # Kubernetes #
