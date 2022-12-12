@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-11-07         |
+#|                | Last Update : 2022-12-12         |
 #+================+==================================+
 
 #=======#
@@ -67,6 +67,12 @@ alias gcam="git commit -am"
 alias py="python3"
 alias python="python3"
 alias pip="pip3"
+
+#====#
+# Go #
+#====#
+export GOPATH=/home/ksy/.go
+export PATH=$PATH:$GOPATH/bin
 
 #=======#
 # Maven #
