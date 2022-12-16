@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-12-12         |
+#|                | Last Update : 2022-12-16         |
 #+================+==================================+
 
 #=======#
@@ -71,6 +71,7 @@ alias pip="pip3"
 #====#
 # Go #
 #====#
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=/home/ksy/.go
 export PATH=$PATH:$GOPATH/bin
 
