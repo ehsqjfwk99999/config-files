@@ -89,11 +89,13 @@ alias dkc="docker compose"
 #============#
 # Kubernetes #
 #============#
+#source <(kubectl completion zsh)
+#source <(helm completion zsh)
+#source <(k3d completion zsh)
 alias kc="kubectl"
 alias skc="sudo kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
-#source <(kubectl completion zsh)
 alias mk="minikube"
 alias k3dc="k3d cluster"
 
