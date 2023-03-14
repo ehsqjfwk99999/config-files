@@ -9,8 +9,12 @@ Host aws
     Port 22
     IdentityFile ~/aws-key.pem
 
+Host proxy
+    User tempuser
+    HostName 192.168.0.102
+    Port 22
 Host gpu-server
     User nvidia
     HostName 192.168.0.103
-    Port 12345
-    ProxyCommand ssh -W %h:%p aws # proxy through aws to gpu-server
+    Port 6666
+    ProxyCommand ssh -W %h:%p proxy # proxy -> gpu-server
