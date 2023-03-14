@@ -17,4 +17,4 @@ Host gpu-server
     User nvidia
     HostName 192.168.0.103
     Port 6666
-    ProxyCommand ssh -W %h:%p proxy # proxy -> gpu-server
+    ProxyCommand ssh -W %h:%p proxy # user->proxy->gpu-server
