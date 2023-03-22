@@ -1,49 +1,40 @@
+"+==============+=================================+
+"|              | Author : KSY                    |
+"+              +---------------------------------+
+"| Vim Settings | Email : ehsqjfwk99999@gmail.com |
+"+              +---------------------------------+
+"|              | Last Update : 2023-03-22        |
 "+==============+==================================+
-"|              | Author : KSY                     |
-"+              +----------------------------------+
-"| Vim Settings | Email : ehsqjfwk99999@gmail.com  |
-"+              +----------------------------------+
-"|              | Last Update : 2021-09-19         |
-"+==============+==================================+
 
-"+-----------------------+
-"| Basic Settings        +-------------------------------------------+
-"+-----------------------| Comment                                   |
-"+=======================+===========================================+
-syntax on               "| highlight syntax                          |
-set mouse=a             "| use mouse for all modes                   |
-set number              "| show line number                          |
-set ruler               "| show line and column of cursor            |
-set hlsearch            "| highlight matching pattern                |
-set incsearch           "| show matching pattern while typing        |
-set showmatch           "| highlight matching bracket in screen      |
-"set cursorline         "| show underline under cursor line          |
-set linebreak           "| ?                                         |
-set laststatus=2        "| always show status line                   |
-set autoread            "| automatically detect file change and read |
-set ignorecase          "| Ignore case in search patterns            |
-set tabstop=4           "| ?                                         |
-set softtabstop=4       "| ?                                         |
-set shiftwidth=4        "| ?                                         |
-set smarttab            "| ?                                         |
-set cindent             "| ?                                         |
-set scrolloff=4         "| # of line above and below cursor          |
-set title               "| show title in title bar                   |
-set vb t_vb=            "| no beeping                                |
-set nopaste             "| not paste mode                            |
-"+=======================+===========================================+
+"+================+
+"| Basic Settings |
+"+================+
+syntax on          " highlight syntax
+set mouse=a
+set number
+set relativenumber
+set ruler          " show line and column of cursor
+set hlsearch       " highlight matching pattern
+set incsearch      " show matching pattern while typing
+set showmatch      " highlight matching bracket in screen
+"set cursorline    " show underline under cursor line
+set linebreak      " ?
+set laststatus=2   " always show status line
+set autoread       " automatically detect file change and read
+set ignorecase     " Ignore case in search patterns
+set tabstop=4      " ?
+set softtabstop=4  " ?
+set shiftwidth=4   " ?
+set smarttab       " ?
+set cindent        " ?
+set scrolloff=4    " # of line above and below cursor
+set title          " show title in title bar
+set vb t_vb=       " no beeping
+set nopaste        " not paste mode
 
-"+-----------------------+
-"| Ctags Settings        +---------------------------------+
-"+-----------------------| Comment                         |
-"+=======================+=================================+
-set tags=./tags;/       "| automatically search tags file  |
-"+=======================+=================================+
-
-"+-----------------------------------+
-"| Key Mappings                      |
-"+-----------------------------------+
-"+===================================+
+"+==============+
+"| Key Mappings |
+"+==============+
 " jump to declaration (ctags)
 map <F1> <C-]>
 map <F9> <C-]>
@@ -66,12 +57,10 @@ nmap <C-J> <C-E>
 nmap <C-H> <C-Left>
 " move right by words
 nmap <C-L> <C-Right>
-"+===================================+
 
-"+---------------------------------+
-"| Functions                       |
-"+---------------------------------|
-"+=================================+
+"+===========+
+"| Functions |
+"+===========+
 " <F3> : toggle paste mode
 function! TogglePaste()
     if &paste==1
@@ -95,19 +84,22 @@ function! ToggleMouse()
         echo "mouse enabled"
     endif
 endfunction
-"+=================================+
 
 "+==========+
 "| Vim-Plug |
 "+==========+
-"call plug#begin('~/.vim/plugged')
-"Plug 'jiangmiao/auto-pairs'       " insert or delete bracket pair      
-"Plug 'farmergreg/vim-lastplace'   " reopen file at last cursor position
+"call plug#begin()
+"Plug 'jiangmiao/auto-pairs'     " https://github.com/jiangmiao/auto-pairs
+"Plug 'farmergreg/vim-lastplace' " https://github.com/farmergreg/vim-lastplace
+"Plug 'vim-airline/vim-airline'  " https://github.com/vim-airline/vim-airline
 "call plug#end()
 
-"+-----------------------------+
-"| Color Scheme                +---------------------------------+
-"+-----------------------------| Comment                         |
-"+=============================+=================================+
-"colorscheme                  "|                                 |
-"+=============================+=================================+
+"+================+
+"| Ctags Settings |
+"+================+
+set tags=./tags;/ " automatically search tags file
+
+"+==============+
+"| Color Scheme |
+"+==============+
+"colorscheme
