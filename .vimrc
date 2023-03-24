@@ -85,6 +85,11 @@ function! ToggleMouse()
     endif
 endfunction
 
+"+================+
+"| Ctags Settings |
+"+================+
+set tags=./tags;/ " automatically search tags file
+
 "+==========+
 "| Vim-Plug |
 "+==========+
@@ -94,12 +99,4 @@ endfunction
 "Plug 'vim-airline/vim-airline'  " https://github.com/vim-airline/vim-airline
 "call plug#end()
 
-"+================+
-"| Ctags Settings |
-"+================+
-set tags=./tags;/ " automatically search tags file
-
-"+==============+
-"| Color Scheme |
-"+==============+
-"colorscheme
+let g:airline_section_c = '%<%F%m %#__accent_red#%{airline#util#wrap(airline#parts#readonly(),0)}%#__restore__#'
