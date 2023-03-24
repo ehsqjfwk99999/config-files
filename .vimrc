@@ -3,7 +3,7 @@
 "+              +---------------------------------+
 "| Vim Settings | Email : ehsqjfwk99999@gmail.com |
 "+              +---------------------------------+
-"|              | Last Update : 2023-03-22        |
+"|              | Last Update : 2023-03-24        |
 "+==============+==================================+
 
 "+================+
@@ -12,14 +12,14 @@
 syntax on          " highlight syntax
 set mouse=a
 set number
-set relativenumber
+"set relativenumber
 set ruler          " show line and column of cursor
 set hlsearch       " highlight matching pattern
 set incsearch      " show matching pattern while typing
 set showmatch      " highlight matching bracket in screen
 "set cursorline    " show underline under cursor line
 set linebreak      " ?
-set laststatus=2   " always show status line
+"set laststatus=2  " always show status line
 set autoread       " automatically detect file change and read
 set ignorecase     " Ignore case in search patterns
 set tabstop=4      " ?
