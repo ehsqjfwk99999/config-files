@@ -3,7 +3,7 @@
 "+              +---------------------------------+
 "| Vim Settings | Email : ehsqjfwk99999@gmail.com |
 "+              +---------------------------------+
-"|              | Last Update : 2023-03-24        |
+"|              | Last Update : 2023-03-25        |
 "+==============+==================================+
 
 "+================+
@@ -31,6 +31,7 @@ set scrolloff=4    " # of line above and below cursor
 set title          " show title in title bar
 set vb t_vb=       " no beeping
 set nopaste        " not paste mode
+set colorcolumn=81
 
 "+==============+
 "| Key Mappings |
