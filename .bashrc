@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2022-12-16         |
+#|                | Last Update : 2023-03-25         |
 #+================+==================================+
 
 #=======#
@@ -105,6 +105,4 @@ alias k3dc="k3d cluster"
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 #export EMSDK_QUIET=1
 #source ~/.emsdk/emsdk_env.sh
-alias sss="bash ~/.my-scripts/ssh-menu.sh"
-alias pl="bash ~/.my-scripts/playground-menu.sh"
-alias sn="bash ~/.my-scripts/snippet-menu.sh"
+alias s="bash ~/.config/selection-menu.sh"
