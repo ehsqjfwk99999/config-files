@@ -99,10 +99,15 @@ alias kdf="kubectl delete -f"
 alias mk="minikube"
 alias k3dc="k3d cluster"
 
+#============#
+# Emscripten #
+#============#
+#export EMSDK_QUIET=1
+#source ~/.emsdk/emsdk_env.sh
+
 #======#
 # Else #
 #======#
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-#export EMSDK_QUIET=1
-#source ~/.emsdk/emsdk_env.sh
+export SYSTEMD_EDITOR=vim
 alias s="bash ~/.config/selection-menu.sh"
