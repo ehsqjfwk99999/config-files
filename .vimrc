@@ -3,7 +3,7 @@
 "+              +---------------------------------+
 "| Vim Settings | Email : ehsqjfwk99999@gmail.com |
 "+              +---------------------------------+
-"|              | Last Update : 2023-03-31        |
+"|              | Last Update : 2023-05-18        |
 "+==============+==================================+
 
 "+================+
@@ -90,6 +90,20 @@ endfunction
 "| Ctags Settings |
 "+================+
 set tags=./tags;/ " automatically search tags file
+
+"+=================+
+"| Cscope Settings |
+"+=================+
+function! LoadCscope()
+  let db = findfile("cscope.out", ".;")
+  if (!empty(db))
+    let path = strpart(db, 0, match(db, "/cscope.out$"))
+    set nocscopeverbose " suppress 'duplicate connection' error
+    exe "cs add " . db . " " . path
+    set cscopeverbose
+  endif
+endfunction
+au BufEnter /* call LoadCscope()
 
 "+==========+
 "| Vim-Plug |
