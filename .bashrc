@@ -102,7 +102,7 @@ alias k3dc="k3d cluster"
 #============#
 # Emscripten #
 #============#
-#export EMSDK_QUIET=1
+#export EMSDK_QUIET=1 # must precede to suppress output
 #source ~/.emsdk/emsdk_env.sh
 
 #======#
