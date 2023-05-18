@@ -48,6 +48,8 @@ nmap <F3> :call TogglePaste()<Enter>
 nmap <F4> :call ToggleMouse()<Enter>
 " turn off search highlight
 nmap <F5> :nohlsearch<Enter>
+" toggle tagbar
+nmap <F8> :TagbarToggle<CR>
 " move page up
 nmap <C-Up> <C-Y>
 nmap <C-K> <C-Y>
@@ -112,6 +114,7 @@ au BufEnter /* call LoadCscope()
 "Plug 'jiangmiao/auto-pairs'     " https://github.com/jiangmiao/auto-pairs
 "Plug 'farmergreg/vim-lastplace' " https://github.com/farmergreg/vim-lastplace
 "Plug 'vim-airline/vim-airline'  " https://github.com/vim-airline/vim-airline
+"Plug 'majutsushi/tagbar'        " https://github.com/preservim/tagbar
 "call plug#end()
 
 let g:airline_section_c = '%<%F%m %#__accent_red#%{airline#util#wrap(airline#parts#readonly(),0)}%#__restore__#'
