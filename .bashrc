@@ -71,9 +71,9 @@ alias pip="pip3"
 #====#
 # Go #
 #====#
-export PATH=$PATH:/usr/local/go/bin
+export PATH=/usr/local/go/bin:$PATH
 export GOPATH=/home/ksy/.go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
 
 #=======#
 # Maven #
