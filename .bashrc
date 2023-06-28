@@ -14,9 +14,10 @@
 #======#
 # WSL2 #
 #======#
-#alias cdd="cd ${WIN_HOME_PATH}/_shared"
-#alias cdh="cd ${WIN_HOME_PATH}"
-#alias cdhs="cd ${WIN_HOME_PATH}/.ssh"
+#alias cdd="cd $WIN_HOME_PATH/_shared"
+#alias cdh="cd $WIN_HOME_PATH"
+#alias cdhs="cd $WIN_HOME_PATH/.ssh"
+#alias ssh-cp="cp -f ~/.ssh/config ~/.ssh/id_rsa ~/.ssh/id_rsa.pub $WIN_HOME_PATH/.ssh"
 
 #=======#
 # Basic #
@@ -51,7 +52,7 @@ alias vib="vi ~/.mybashrc && source ~/.bashrc"
 alias viz="vi ~/.mybashrc && source ~/.zshrc"
 alias viv="vi ~/.vimrc"
 alias vis="vi ~/.ssh/config"
-#alias viss="vi ${WIN_HOME_PATH}/.ssh/config"
+#alias viss="vi $WIN_HOME_PATH/.ssh/config"
 
 #=====#
 # Git #
@@ -112,4 +113,3 @@ alias k3dc="k3d cluster"
 export SYSTEMD_EDITOR=vim
 #alias s="bash ~/.ksy/.ssh-menu.sh"
 #alias m="bash ~/.ksy/.mount-menu.sh"
-
