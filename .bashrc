@@ -111,5 +111,6 @@ alias k3dc="k3d cluster"
 #======#
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export SYSTEMD_EDITOR=vim
+alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/.ssh-menu.sh"
 #alias m="bash ~/.ksy/.mount-menu.sh"
