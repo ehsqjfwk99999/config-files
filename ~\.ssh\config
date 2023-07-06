@@ -8,6 +8,7 @@ Host aws
     HostName 192.168.0.101
     Port 22
     IdentityFile ~/aws-key.pem
+    ForwardX11 yes
 
 Host proxy
     User tempuser
