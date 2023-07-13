@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2023-07-06         |
+#|                | Last Update : 2023-07-13         |
 #+================+==================================+
 
 #=======#
@@ -90,10 +90,12 @@ alias dkc="docker compose"
 #============#
 # Kubernetes #
 #============#
+#source <(kubectl completion bash)
 #source <(kubectl completion zsh)
 #source <(helm completion zsh)
 #source <(k3d completion zsh)
 alias kc="kubectl"
+#complete -o default -F __start_kubectl kc # kubectl(kc) bash completion
 alias skc="sudo kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
