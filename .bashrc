@@ -90,17 +90,16 @@ alias dkc="docker compose"
 #============#
 # Kubernetes #
 #============#
-#source <(kubectl completion bash)
-#source <(kubectl completion zsh)
-#source <(helm completion zsh)
-#source <(k3d completion zsh)
 alias kc="kubectl"
-#complete -o default -F __start_kubectl kc # kubectl(kc) bash completion
-alias skc="sudo kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
 alias mk="minikube"
-alias k3dc="k3d cluster"
+#source <(kubectl completion bash)                                       # kubectl autocomplete for bash
+#complete -o default -F __start_kubectl kc # kubectl(kc) bash completion # kubectl autocomplete for bash
+#source <(kubectl completion zsh)                                        # kubectl autocomplete for zsh
+#. <(kubebuilder completion zsh)                                         # kubebuilder autocomplete for zsh
+#source <(helm completion zsh)                                           # helm autocomplete for zsh
+#source <(k3d completion zsh)                                            # k3d autocomplete for zsh
 
 #============#
 # Emscripten #
