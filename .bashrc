@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2023-07-13         |
+#|                | Last Update : 2023-09-05         |
 #+================+==================================+
 
 #=======#
@@ -26,9 +26,10 @@ alias cl="clear"
 alias cs="cd .."
 alias css="cd ../.."
 alias csss="cd ../../.."
+alias sus="sudo su"
+alias paths='echo $PATH | tr : "\n"'
 alias sourceb="source ~/.bashrc"
 alias sourcez="source ~/.zshrc"
-alias sus="sudo su"
 
 #=====#
 # APT #
