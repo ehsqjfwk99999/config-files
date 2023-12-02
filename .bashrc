@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2023-09-05         |
+#|                | Last Update : 2023-12-02         |
 #+================+==================================+
 
 #=======#
@@ -34,7 +34,9 @@ alias sourcez="source ~/.zshrc"
 #=====#
 # APT #
 #=====#
-alias apta="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
+            echo -e "\n\e[32m[apt upgrade]\e[0m" && sudo apt upgrade -y && \
+            echo -e "\n\e[32m[apt autoremove]\e[0m" && sudo apt autoremove -y'
 alias apti="sudo apt install -y"
 
 #====================#
