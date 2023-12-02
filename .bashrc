@@ -94,9 +94,11 @@ alias dkc="docker compose"
 # Kubernetes #
 #============#
 alias kc="kubectl"
+alias skc="sudo kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
 alias mk="minikube"
+alias k3dc="k3d cluster"
 #source <(kubectl completion bash)                                       # kubectl autocomplete for bash
 #complete -o default -F __start_kubectl kc # kubectl(kc) bash completion # kubectl autocomplete for bash
 #source <(kubectl completion zsh)                                        # kubectl autocomplete for zsh
@@ -115,6 +117,6 @@ alias mk="minikube"
 #======#
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export SYSTEMD_EDITOR=vim
-alias xs="xsel --clipboard"
+#alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/.ssh-menu.sh"
 #alias m="bash ~/.ksy/.mount-menu.sh"
