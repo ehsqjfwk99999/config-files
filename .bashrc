@@ -28,7 +28,7 @@ alias css="cd ../.."
 alias csss="cd ../../.."
 alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'
-alias fpaths='echo $fpath | tr " " "\n"'
+alias fpaths='echo $fpath | tr " " "\n"' # Zsh, Oh My Zsh paths(?)
 alias sourceb="source ~/.bashrc"
 alias sourcez="source ~/.zshrc"
 
