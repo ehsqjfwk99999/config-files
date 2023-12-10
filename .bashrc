@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2023-12-02         |
+#|                | Last Update : 2023-12-10         |
 #+================+==================================+
 
 #=======#
@@ -28,6 +28,7 @@ alias css="cd ../.."
 alias csss="cd ../../.."
 alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'
+alias fpaths='echo $fpath | tr " " "\n"'
 alias sourceb="source ~/.bashrc"
 alias sourcez="source ~/.zshrc"
 
