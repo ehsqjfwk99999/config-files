@@ -18,7 +18,7 @@
 #alias cdh="cd $WIN_HOME_PATH"
 #alias cdhs="cd $WIN_HOME_PATH/.ssh"
 #alias ssh-cp="rm $WIN_HOME_PATH/.ssh/known_hosts && \
-                cp -f ~/.ssh/config ~/.ssh/id_rsa ~/.ssh/id_rsa.pub  $WIN_HOME_PATH/.ssh"
+#                cp -f ~/.ssh/config ~/.ssh/id_rsa ~/.ssh/id_rsa.pub  $WIN_HOME_PATH/.ssh"
 
 #=======#
 # Basic #
