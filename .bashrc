@@ -95,7 +95,7 @@ alias dkc="docker compose"
 #============#
 # Kubernetes #
 #============#
-alias kc="kubectl"
+alias k="kubectl"
 alias skc="sudo kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
