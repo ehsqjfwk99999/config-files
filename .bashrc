@@ -77,14 +77,14 @@ alias pip="pip3"
 #====#
 # Go #
 #====#
-export PATH=/usr/local/go/bin:$PATH
-export GOPATH=/home/ksy/.go
-export PATH=$GOPATH/bin:$PATH
+#export PATH=/usr/local/go/bin:$PATH
+#export GOPATH=/home/ksy/.go
+#export PATH=$GOPATH/bin:$PATH
 
 #=======#
 # Maven #
 #=======#
-export PATH=$HOME/.apache-maven/bin:$PATH
+#export PATH=$HOME/.apache-maven/bin:$PATH
 
 #========#
 # Docker #
@@ -101,6 +101,7 @@ alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
 alias mk="minikube"
 alias k3dc="k3d cluster"
+#export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"                       # Krew
 #source <(kubectl completion bash)                                       # kubectl autocomplete for bash
 #complete -o default -F __start_kubectl kc # kubectl(kc) bash completion # kubectl autocomplete for bash
 #source <(kubectl completion zsh)                                        # kubectl autocomplete for zsh
