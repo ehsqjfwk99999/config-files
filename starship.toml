@@ -1,0 +1,32 @@
+format = '$os$all'
+
+[c]
+format = '\[[$symbol($version(-$name))]($style)\] '
+
+[golang]
+format = '\[[$symbol($version)]($style)\] '
+symbol = 'Go '
+
+[rust]
+format = '\[[$symbol($version)]($style)\] '
+symbol = 'Rust '
+
+[nodejs]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'Node.js '
+
+[package]
+format = '\[[$symbol$version]($style)\] '
+
+[os]
+disabled = false
+[os.symbols]
+Ubuntu = " "
+
+[directory]
+format = '[$read_only]($read_only_style)[$path]($style) '
+truncation_length = 8
+truncation_symbol = '…/'
+
+[hostname]
+ssh_only = false
