@@ -44,8 +44,8 @@ alias apti="sudo apt install -y"
 #=============#
 # Linux Tools #
 #=============#
-starship init fish | source
-atuin init fish | source
+#starship init fish | source
+#atuin init fish | source
 #alias cat="bat -p"
 #alias grep="rg"
 #alias ls="lsd"
