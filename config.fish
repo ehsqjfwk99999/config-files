@@ -31,6 +31,7 @@ alias csss="cd ../../.."
 alias sus="sudo su"
 alias paths='echo "$PATH" | tr : "\n"'
 alias fpaths='echo "$fish_user_paths" | tr " " "\n"'
+alias cpaths='echo "$fish_complete_path" | tr " " "\n"'
 
 #=====#
 # APT #
