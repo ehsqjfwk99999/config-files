@@ -79,8 +79,8 @@ alias pip="pip3"
 # Go #
 #====#
 #fish_add_path /usr/local/go/bin
-#export GOPATH=/home/ksy/.go
-#export PATH=$GOPATH/bin:$PATH
+#set -x GOPATH /home/ksy/.go
+#fish_add_path $GOPATH/bin
 
 #======#
 # Rust #
