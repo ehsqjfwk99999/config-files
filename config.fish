@@ -6,14 +6,15 @@
 #|                | Last Update : 2024-02-09         |
 #+================+==================================+
 
-#=======#
-# Paths #
-#=======#
-#WIN_HOME_PATH="<windows home path>"
+#======#
+# Fish #
+#======#
+set fish_user_paths # clear $fish_user_paths
 
 #======#
 # WSL2 #
 #======#
+#WIN_HOME_PATH="<windows home path>"
 #alias cdd="cd $WIN_HOME_PATH/_shared"
 #alias cdh="cd $WIN_HOME_PATH"
 #alias cdhs="cd $WIN_HOME_PATH/.ssh"
@@ -39,9 +40,11 @@ alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
             echo -e "\n\e[32m[apt autoremove]\e[0m" && sudo apt autoremove -y'
 alias apti="sudo apt install -y"
 
-#====================#
-# Modern Linux Tools #
-#====================#
+#=============#
+# Linux Tools #
+#=============#
+starship init fish | source
+atuin init fish | source
 #alias cat="bat -p"
 #alias grep="rg"
 #alias ls="lsd"
