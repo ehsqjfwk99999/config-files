@@ -14,7 +14,7 @@ set fish_user_paths # clear $fish_user_paths
 #======#
 # WSL2 #
 #======#
-#WIN_HOME_PATH="<windows home path>"
+#set WIN_HOME_PATH "<windows home path>"
 #alias cdd="cd $WIN_HOME_PATH/_shared"
 #alias cdh="cd $WIN_HOME_PATH"
 #alias cdhs="cd $WIN_HOME_PATH/.ssh"
