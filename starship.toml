@@ -29,5 +29,8 @@ truncation_length = 8
 truncation_symbol = '…/'
 truncate_to_repo = false
 
+[username]
+format = '[$user]($style)@'
+
 [hostname]
-ssh_only = false
+format = '[$hostname]($style) in '
