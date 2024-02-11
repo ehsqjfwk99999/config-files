@@ -27,6 +27,7 @@ Ubuntu = " "
 format = '[$read_only]($read_only_style)[$path]($style) '
 truncation_length = 8
 truncation_symbol = '…/'
+truncate_to_repo = false
 
 [hostname]
 ssh_only = false
