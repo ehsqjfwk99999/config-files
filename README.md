@@ -3,11 +3,11 @@
 ## Locations
 | File | Location |
 |:---:|:---|
-| `.bashrc`       |  |
-| `.gdbinit`      |  |
-| `.vimrc`        |  |
-| `.wslconfig`    |  |
-| `config`        |  |
-| `config.fish`   |  |
-| `starship.toml` |  |
-| `wsl.conf`      |  |
+| `.bashrc`       | `~/.bashrc` |
+| `.gdbinit`      | `~/.gdbinit` |
+| `.vimrc`        | `~/.vimrc` |
+| `.wslconfig`    | `C:\Users\<UserName>\.wslconfig` |
+| `config`        | `~/.ssh/config` |
+| `config.fish`   | `~/.config/fish/config.fish` |
+| `starship.toml` | `~/.config/starship.toml` |
+| `wsl.conf`      | `/etc/wsl.conf` |
