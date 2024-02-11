@@ -1,4 +1,5 @@
-# Config Files
+# Configuragtion Files
+Various configurations files.
 
 ## Locations
 | File | Location |
