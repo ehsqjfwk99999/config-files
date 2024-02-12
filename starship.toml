@@ -3,6 +3,10 @@ format = '$os$all'
 [c]
 format = '\[[$symbol($version(-$name))]($style)\] '
 
+[cmake]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'CMake '
+
 [golang]
 format = '\[[$symbol($version)]($style)\] '
 symbol = 'Go '
