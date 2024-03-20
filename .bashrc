@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2023-12-12         |
+#|                | Last Update : 2024-03-20         |
 #+================+==================================+
 
 #=======#
@@ -114,6 +114,13 @@ alias k3dc="k3d cluster"
 #============#
 #export EMSDK_QUIET=1 # must precede to suppress output
 #source ~/.emsdk/emsdk_env.sh
+
+#==============#
+# Linux Kernel #
+#==============#
+alias b="make -j$(nproc) && sudo make INSTALL_MOD_STRIP=1 modules_install install"
+alias z="sudo vi /etc/default/grub"
+alias zz="sudo update-grub"
 
 #======#
 # Else #
