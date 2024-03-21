@@ -118,7 +118,7 @@ alias k3dc="k3d cluster"
 #==============#
 # Linux Kernel #
 #==============#
-alias b="make -j$(nproc) && sudo make INSTALL_MOD_STRIP=1 modules_install install"
+alias b="make -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
 alias z="sudo vi /etc/default/grub"
 alias zz="sudo update-grub"
 
