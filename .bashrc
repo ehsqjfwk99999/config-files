@@ -3,17 +3,13 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-03-20         |
+#|                | Last Update : 2024-03-26         |
 #+================+==================================+
-
-#=======#
-# Paths #
-#=======#
-#WIN_HOME_PATH="<windows home path>"
 
 #======#
 # WSL2 #
 #======#
+#WIN_HOME_PATH="<windows home path>"
 #alias cdd="cd $WIN_HOME_PATH/_shared"
 #alias cdh="cd $WIN_HOME_PATH"
 #alias cdhs="cd $WIN_HOME_PATH/.ssh"
@@ -30,8 +26,6 @@ alias csss="cd ../../.."
 alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'     # system PATH list
 alias fpaths='echo $fpath | tr " " "\n"' # Zsh(Oh My Zsh) path list(?)
-alias sourceb="source ~/.bashrc"
-alias sourcez="source ~/.zshrc"
 
 #=====#
 # APT #
@@ -40,6 +34,7 @@ alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
             echo -e "\n\e[32m[apt upgrade]\e[0m" && sudo apt upgrade -y && \
             echo -e "\n\e[32m[apt autoremove]\e[0m" && sudo apt autoremove -y'
 alias apti="sudo apt install -y"
+alias aptr="sudo apt remove"
 
 #====================#
 # Modern Linux Tools #
