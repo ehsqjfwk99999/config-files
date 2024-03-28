@@ -22,6 +22,9 @@ alias csss="cd ../../.."
 alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'     # system PATH list
 alias fpaths='echo $fpath | tr " " "\n"' # Zsh(Oh My Zsh) path list(?)
+mkdirr() {
+    mkdir -p $1 && cd $1
+}
 
 ## APT
 alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
