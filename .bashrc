@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-03-26         |
+#|                | Last Update : 2024-04-04         |
 #+================+==================================+
 
 ## WSL2
@@ -93,6 +93,7 @@ alias k3dc="k3d cluster"
 #alias b="make -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
 #alias z="sudo vi /etc/default/grub"
 #alias zz="sudo update-grub"
+#alias rr="sudo reboot"
 
 ## Else
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
