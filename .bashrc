@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-04-04         |
+#|                | Last Update : 2024-04-09         |
 #+================+==================================+
 
 ## WSL2
@@ -49,6 +49,7 @@ alias vis="vi ~/.ssh/config"
 
 ## Git
 alias gcl="git clone"
+alias gcld1="git clone --depth=1"
 alias gad="git add ."
 alias gcm="git commit -m"
 alias gcam="git commit -am"
