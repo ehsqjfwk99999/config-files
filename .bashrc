@@ -59,9 +59,9 @@ alias python="python3"
 alias pip="pip3"
 
 ## Go
-#export PATH=/usr/local/go/bin:$PATH
+#export GOROOT=/usr/local/go
 #export GOPATH=/home/ksy/.go
-#export PATH=$GOPATH/bin:$PATH
+#export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 ## Java
 #export PATH=$HOME/.apache-maven/bin:$PATH
