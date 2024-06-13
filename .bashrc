@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-04-09         |
+#|                | Last Update : 2024-06-13         |
 #+================+==================================+
 
 ## WSL2
@@ -100,5 +100,5 @@ alias k3dc="k3d cluster"
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 export SYSTEMD_EDITOR=vim
 #alias xs="xsel --clipboard"
-#alias s="bash ~/.ksy/.ssh-menu.sh"
-#alias m="bash ~/.ksy/.mount-menu.sh"
+#alias s="bash ~/.ksy/ssh-menu.sh"
+#alias m="bash ~/.ksy/mount-menu.sh"
