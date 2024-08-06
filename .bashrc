@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-06-13         |
+#|                | Last Update : 2024-08-06         |
 #+================+==================================+
 
 ## WSL2
@@ -60,9 +60,9 @@ alias python="python3"
 alias pip="pip3"
 
 ## Go
-#export GOROOT=/usr/local/go
-#export GOPATH=/home/ksy/.go
-#export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+#export PATH=/usr/local/go/bin:$PATH # for basic go executables
+#export GOPATH=/home/ksy/.go         # need to be initialized (default: '/home/ksy/go')
+#export PATH=$GOPATH/bin:$PATH       # add bin path instead
 
 ## Java
 #export PATH=$HOME/.apache-maven/bin:$PATH
