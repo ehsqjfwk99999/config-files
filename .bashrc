@@ -27,9 +27,10 @@ mkdirr() {
 }
 
 ## APT
-alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
-            echo -e "\n\e[32m[apt upgrade]\e[0m" && sudo apt upgrade -y && \
-            echo -e "\n\e[32m[apt autoremove]\e[0m" && sudo apt autoremove -y'
+#alias apta='echo -e "\e[32m[apt update]\e[0m" && sudo apt update && \
+#            echo -e "\n\e[32m[apt upgrade]\e[0m" && sudo apt upgrade -y && \
+#            echo -e "\n\e[32m[apt autoremove]\e[0m" && sudo apt autoremove -y'
+alias aptu="sudo apt update"
 alias apti="sudo apt install -y"
 alias aptr="sudo apt remove"
 
