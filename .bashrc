@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-08-06         |
+#|                | Last Update : 2024-09-02         |
 #+================+==================================+
 
 ## WSL2
@@ -92,7 +92,7 @@ alias k3dc="k3d cluster"
 #source ~/.emsdk/emsdk_env.sh
 
 ## Linux Kernel
-#alias b="make -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
+#alias b="make V=2 -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
 #alias z="sudo vi /etc/default/grub"
 #alias zz="sudo update-grub"
 #alias rr="sudo reboot"
