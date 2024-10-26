@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-09-02         |
+#|                | Last Update : 2024-10-27         |
 #+================+==================================+
 
 ## WSL2
@@ -98,8 +98,9 @@ alias k3dc="k3d cluster"
 #alias rr="sudo reboot"
 
 ## Else
-#export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
 export SYSTEMD_EDITOR=vim
+#export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 #alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/ssh-menu.sh"
 #alias m="bash ~/.ksy/mount-menu.sh"
