@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-10-27         |
+#|                | Last Update : 2024-12-12         |
 #+================+==================================+
 
 ## WSL2
@@ -34,7 +34,7 @@ alias aptu="sudo apt update"
 alias apti="sudo apt install -y"
 alias aptr="sudo apt remove"
 
-## Modern Linux Tools
+## Linux Tools
 #alias cat="bat -p"
 #alias grep="rg"
 #alias ls="lsd"
@@ -93,13 +93,14 @@ alias k3dc="k3d cluster"
 
 ## Linux Kernel
 #alias b="make V=2 -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
-#alias z="sudo vi /etc/default/grub"
-#alias zz="sudo update-grub"
+#alias u="sudo vi /etc/default/grub"
+#alias uu="sudo update-grub"
 #alias rr="sudo reboot"
 
 ## Else
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
 export SYSTEMD_EDITOR=vim
+export PATH="$HOME/.local/bin:$PATH"
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 #alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/ssh-menu.sh"
