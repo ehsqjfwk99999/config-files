@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2024-12-12         |
+#|                | Last Update : 2025-07-20         |
 #+================+==================================+
 
 ## WSL2
@@ -62,7 +62,7 @@ alias pip="pip3"
 
 ## Go
 #export PATH=/usr/local/go/bin:$PATH # for basic go executables
-#export GOPATH=/home/ksy/.go         # need to be initialized (default: '/home/ksy/go')
+#export GOPATH=$HOME/.go         # need to be initialized (default: '/home/ksy/go')
 #export PATH=$GOPATH/bin:$PATH       # add bin path instead
 
 ## Java
@@ -92,7 +92,7 @@ alias k3dc="k3d cluster"
 #source ~/.emsdk/emsdk_env.sh
 
 ## Linux Kernel
-#alias b="make V=2 -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
+#alias b="make V=12 -j`nproc` && sudo make -j`nproc` INSTALL_MOD_STRIP=1 modules_install && sudo make install"
 #alias u="sudo vi /etc/default/grub"
 #alias uu="sudo update-grub"
 #alias rr="sudo reboot"
