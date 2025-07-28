@@ -101,6 +101,7 @@ alias k3dc="k3d cluster"
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
 export SYSTEMD_EDITOR=vim
 export PATH="$HOME/.local/bin:$PATH"
+#export XAUTHORITY=$HOME/.Xauthority 
 #export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
 #alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/ssh-menu.sh"
