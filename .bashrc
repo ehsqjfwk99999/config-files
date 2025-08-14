@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2025-07-20         |
+#|                | Last Update : 2025-08-14         |
 #+================+==================================+
 
 ## WSL2
@@ -96,6 +96,8 @@ alias k3dc="k3d cluster"
 #alias u="sudo vi /etc/default/grub"
 #alias uu="sudo update-grub"
 #alias rr="sudo reboot"
+#alias modules="find /lib/modules/$(uname -r) -name "*.ko" | xargs basename -s .ko"
+#alias modulesf="find /lib/modules/$(uname -r) -name "*.ko*" | sort"
 
 ## Else
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
