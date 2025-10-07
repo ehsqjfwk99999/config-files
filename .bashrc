@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2025-08-14         |
+#|                | Last Update : 2025-10-07         |
 #+================+==================================+
 
 ## WSL2
@@ -98,6 +98,30 @@ alias k3dc="k3d cluster"
 #alias rr="sudo reboot"
 #alias modules="find /lib/modules/$(uname -r) -name "*.ko" | xargs basename -s .ko"
 #alias modulesf="find /lib/modules/$(uname -r) -name "*.ko*" | sort"
+
+## XDG
+xdg() {
+  echo "=== XDG Session Variables ==="
+  printf "%-18s %s\n" "XDG_SESSION_ID:"   "${XDG_SESSION_ID:-<unset>}"
+  printf "%-18s %s\n" "XDG_SESSION_TYPE:" "${XDG_SESSION_TYPE:-<unset>}"
+  printf "%-18s %s\n" "XDG_RUNTIME_DIR:"  "${XDG_RUNTIME_DIR:-<unset>}"
+  printf "%-18s %s\n" "XDG_SEAT:"         "${XDG_SEAT:-<unset>}"
+  printf "%-18s %s\n" "XDG_VTNR:"         "${XDG_VTNR:-<unset>}"
+  echo
+
+  echo "=== XDG Base Directory Variables ==="
+  printf "%-18s %s\n" "XDG_CONFIG_HOME:"  "${XDG_CONFIG_HOME:-$HOME/.config}"
+  printf "%-18s %s\n" "XDG_DATA_HOME:"    "${XDG_DATA_HOME:-$HOME/.local/share}"
+  printf "%-18s %s\n" "XDG_CACHE_HOME:"   "${XDG_CACHE_HOME:-$HOME/.cache}"
+  printf "%-18s %s\n" "XDG_STATE_HOME:"   "${XDG_STATE_HOME:-$HOME/.local/state}"
+  printf "%-18s %s\n" "XDG_DATA_DIRS:"    "${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"
+  printf "%-18s %s\n" "XDG_CONFIG_DIRS:"  "${XDG_CONFIG_DIRS:-/etc/xdg}"
+  echo
+
+  if [ -z "$XDG_RUNTIME_DIR" ]; then
+    echo "⚠️  Note: XDG_RUNTIME_DIR is unset. Normally it’s set by logind (e.g. /run/user/\$(id -u))."
+  fi
+}
 
 ## Else
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
