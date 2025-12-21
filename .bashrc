@@ -3,7 +3,7 @@
 #+                +----------------------------------+
 #| Shell Settings | Email : ehsqjfwk99999@gmail.com  |
 #+                +----------------------------------+
-#|                | Last Update : 2025-10-07         |
+#|                | Last Update : 2025-12-21         |
 #+================+==================================+
 
 ## WSL2
@@ -19,6 +19,7 @@ alias cl="clear"
 alias cs="cd .."
 alias css="cd ../.."
 alias csss="cd ../../.."
+alias cdtmp='cd $(mktemp -d)'
 alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'     # system PATH list
 alias fpaths='echo $fpath | tr " " "\n"' # Zsh(Oh My Zsh) path list(?)
@@ -132,3 +133,4 @@ export PATH="$HOME/.local/bin:$PATH"
 #alias xs="xsel --clipboard"
 #alias s="bash ~/.ksy/ssh-menu.sh"
 #alias m="bash ~/.ksy/mount-menu.sh"
+alias coden="code -n"
