@@ -41,6 +41,7 @@ alias aptr="sudo apt remove"
 #alias ls="lsd"
 #alias l="ls -al"
 #alias ll="ls -al"
+#alias stui="systemctl-tui"
 
 ## Vim
 alias vib="vi ~/.ksy/.bashrc && source ~/.bashrc"
