@@ -76,18 +76,12 @@ alias dkc="docker compose"
 
 ## Kubernetes
 alias k="kubectl"
-alias skc="sudo kubectl"
+#source <(kubectl completion bash)
+#complete -o default -F __start_kubectl k
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
-alias mk="minikube"
-alias k3dc="k3d cluster"
-#export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"                       # Krew
-#source <(kubectl completion bash)                                       # kubectl autocomplete for bash
-#complete -o default -F __start_kubectl kc # kubectl(kc) bash completion # kubectl autocomplete for bash
-#source <(kubectl completion zsh)                                        # kubectl autocomplete for zsh
-#. <(kubebuilder completion zsh)                                         # kubebuilder autocomplete for zsh
-#source <(helm completion zsh)                                           # helm autocomplete for zsh
-#source <(k3d completion zsh)                                            # k3d autocomplete for zsh
+#export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 
 ## Emscripten
 #export EMSDK_QUIET=1 # must precede to suppress output
