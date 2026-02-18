@@ -58,13 +58,11 @@ alias gcm="git commit -m"
 alias gcam="git commit -am"
 
 ## Python
-alias py="python3"
-alias python="python3"
-alias pip="pip3"
+alias activate="source .venv/bin/activate"
 
 ## Go
 #export PATH=/usr/local/go/bin:$PATH # for basic go executables
-#export GOPATH=$HOME/.go         # need to be initialized (default: '/home/ksy/go')
+#export GOPATH=$HOME/.go             # need to be initialized (default: '/home/ksy/go')
 #export PATH=$GOPATH/bin:$PATH       # add bin path instead
 
 ## Java
@@ -81,7 +79,6 @@ alias k="kubectl"
 alias kaf="kubectl apply -f"
 alias kdf="kubectl delete -f"
 #export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-
 
 ## Emscripten
 #export EMSDK_QUIET=1 # must precede to suppress output
