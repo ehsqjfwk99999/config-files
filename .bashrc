@@ -24,7 +24,7 @@ alias sus="sudo su"
 alias paths='echo $PATH | tr : "\n"'     # system PATH list
 alias fpaths='echo $fpath | tr " " "\n"' # Zsh(Oh My Zsh) path list(?)
 mkdirr() {
-    mkdir -p $1 && cd $1
+    mkdir -p $1 && cd $_
 }
 
 ## APT
