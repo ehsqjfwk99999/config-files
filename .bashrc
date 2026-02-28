@@ -118,6 +118,7 @@ xdg() {
 
 ## Else
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
+export EDITOR=vim
 export SYSTEMD_EDITOR=vim
 export PATH="$HOME/.local/bin:$PATH"
 #export XAUTHORITY=$HOME/.Xauthority 
