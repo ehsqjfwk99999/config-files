@@ -116,6 +116,12 @@ xdg() {
   fi
 }
 
+## Mise
+# eval "$(/home/ksy/.local/bin/mise activate bash)
+# eval "$(fzf --bash)"
+# [ -f ~/.fzf-git/fzf-git.sh ] && source ~/.fzf-git/fzf-git.sh
+
+
 ## Else
 TIMEFMT=$'\n================\nCPU\t%P\nuser\t%*U\nsystem\t%*S\ntotal\t%*E'
 export EDITOR=vim
